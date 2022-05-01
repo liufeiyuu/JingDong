@@ -1,0 +1,26 @@
+body {
+    font-size: 14px;
+    background: #f4f4f4;
+}
+
+@font-face {
+    font-family: "iconfont"; /* Project id 3360807 */
+    src: url('./font/iconfont.woff2?t=1650964685423') format('woff2'),
+         url('./font/iconfont.woff?t=1650964685423') format('woff'),
+         url('./font/iconfont.ttf?t=1650964685423') format('truetype');
+  }
+  
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+.clearfix::after {
+  content: "";
+  clear: both;  /* 图像的左侧和右侧均不允许出现浮动元素 */
+  display: block;
+  height: 0px;
+}

@@ -1,0 +1,14 @@
+html, body, ul, ol, li {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;   /* 去掉li标签中小圆点 */
+}
+
+dl, dt, dd {
+    margin: 0px;
+    padding: 0px;
+}
+
